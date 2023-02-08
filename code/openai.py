@@ -39,7 +39,7 @@ class OpenAi:
 
                 # Print the response
 
-                answer = response.json()['choices'][0]['text']
+                answer = response.json()["choices"][0]["text"]
                 answer = markdown.markdown(answer)
             else:
                 answer= "问题不能为空"
